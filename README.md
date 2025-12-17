@@ -1,5 +1,30 @@
-# MediapipeLandmarkHelpers
+# Python Virtual Environment (venv) Guide
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-All%20Platforms-lightgrey)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+This repository contains a simple guide on how to create and use Python virtual environments using `venv`. A virtual environment helps you manage project-specific dependencies without affecting your global Python installation.
+
+---
+
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Creating a Virtual Environment](#creating-a-virtual-environment)
+- [Activating the Virtual Environment](#activating-the-virtual-environment)
+- [Installing Packages](#installing-packages)
+- [Deactivating the Virtual Environment](#deactivating-the-virtual-environment)
+- [Deleting a Virtual Environment](#deleting-a-virtual-environment)
+
+---
+
+## Requirements
+
+- Python 3.3 or higher
+- `venv` module (comes built-in with Python 3.3+)
+
+```bash
+python3 --version
+```
+
