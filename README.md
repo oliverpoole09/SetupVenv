@@ -39,3 +39,28 @@ python3 -m venv venv
 ```
 
 This will create a folder named `venv` in your project directory containing the virtual environment.
+
+## Activating the Virtual Environment
+
+### On macOS/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+### On Windows (Command Prompt):
+
+```bash
+venv\Scripts\activate
+```
+
+### On Windows (PowerShell):
+
+```bash
+venv\Scripts\Activate.ps1
+```
+
+Once activated, your terminal prompt will show `(venv)` before the path.
+
+
+
