@@ -64,3 +64,4 @@ Once activated, your terminal prompt will show `(venv)` before the path.
 
 ## Installing Packages
 
+With the virtual environment active, you can install packages using `pip`:
