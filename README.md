@@ -62,5 +62,5 @@ venv\Scripts\Activate.ps1
 
 Once activated, your terminal prompt will show `(venv)` before the path.
 
-
+## Installing Packages
 
