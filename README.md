@@ -65,3 +65,40 @@ Once activated, your terminal prompt will show `(venv)` before the path.
 ## Installing Packages
 
 With the virtual environment active, you can install packages using `pip`:
+
+```bash
+pip install <package_name>
+```
+
+You can also save your dependencies to a `requirements.txt` file:
+
+```bash
+pip freeze > requirements.txt
+```
+
+And install from it later:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Deactivating the Virtual Environment
+
+To deactivate, simply run:
+
+```bash
+deactivate
+```
+
+## Deleting a Virtual Environment
+
+If you want to remove the virtual environment, just delete the `venv` folder:
+
+```bash
+rm -rf venv  # macOS/Linux
+rmdir /s /q venv  # Windows
+```
+
+## License
+
+No License considering this is general knowledge.
