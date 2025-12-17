@@ -24,7 +24,18 @@ This repository contains a simple guide on how to create and use Python virtual 
 - Python 3.3 or higher
 - `venv` module (comes built-in with Python 3.3+)
 
+Check your Python version:
+
 ```bash
 python3 --version
 ```
 
+## Creating a Virtual Environment
+
+Navigate to your project folder and run:
+
+```bash
+python3 -m venv venv
+```
+
+This will create a folder named `venv` in your project directory containing the virtual environment.
