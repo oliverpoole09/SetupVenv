@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-All%20Platforms-lightgrey)
-[![License](https://img.shields.io/github/license/oliverpoole09/SetupVenv)]
+![License](https://img.shields.io/github/license/oliverpoole09/SetupVenv)
 
 This repository contains a simple guide on how to create and use Python virtual environments using `venv`. A virtual environment helps you manage project-specific dependencies without affecting your global Python installation.
 
